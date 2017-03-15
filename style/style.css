@@ -11,14 +11,17 @@ body {
     height: 20px;
     border: 1px solid #f1f1f1;;
 }
+header {
+    background: #fff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding: 10px;
+}
 .limiter {
     margin: 0 auto;
     width: 100%;
     max-width: 1024px;
-    background: #fff;
     overflow: hidden;
-    padding: 10px;
-    border: 1px solid #ccc;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -40,15 +43,16 @@ body {
     color: #666;
     display: block;
     padding: 5px;
+    text-align: left;
     font-size: 1.1rem;
 }
 #main-menu ul li a:hover {
-    background: #e67c1f;
-    color: #fff;
+    border-bottom: 2px solid #999;
 }
 .lang-line {
     text-align: right;
     border-bottom: 1px solid #666;
+    margin-bottom: 5px;
 }
 .lang-bg {
     background: url('../images/bg.png');
@@ -62,4 +66,14 @@ body {
     background: url('../images/logo.png');
     width: 200px;
     height: 80px;
+}
+main {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#slider {
+    width: 100%;
+    height: 300px;
+    background: #cccccc;
 }
