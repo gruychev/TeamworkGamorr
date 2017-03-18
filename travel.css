@@ -1,0 +1,172 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background-color: #EBEBEB;
+    margin:0;
+    font: 13px Tahoma, Helvetica, sans-serif;
+}
+
+.site-header, .reservation, .offers, .site-footer{
+    border: 1px solid blue;
+    margin: 10px;
+
+}
+.site-header{
+    background: url("images/tranvel2.jpg") ;
+    background-size: cover;
+    min-height: 400px;
+    width: 100%; ;
+}
+
+
+nav.top-navigation {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+nav.top-navigation ul {
+    background: rgba(187, 148, 93, 0.9);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 2px;
+}
+
+nav.top-navigation ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav.top-navigation ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav.top-navigation ul li a:hover {
+    color: #f5c686;
+}
+.reservation h3{
+    margin-left: 30px;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fromfly .tofly {
+    display: inline-block;
+}
+
+
+section .colums{
+    width: 400px;
+    border: 1px solid blue;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color:white ;
+    border-radius: 10px;
+
+}
+
+section .colums h1{
+    color:red;
+}
+
+
+
+section .colums img {
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+
+
+.site-footer {
+    background: black;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.site-footer section {
+    vertical-align: top;
+    color: white;
+    width: 230px;
+    margin: 5px;
+    display: inline-block;
+    text-align: left;
+}
+
+.site-footer .consulting p {
+    margin-left: 30px;
+}
+
+.site-footer p.social-links {
+    margin: 30px 0px 0px 50px;
+}
+
+.site-footer .social-links a {
+    text-decoration: none;
+    color: black;
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 1.5em;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.site-footer .social-links a:hover {
+    background: #aaa;
+    box-shadow: 0px 0px 4px white;
+}
+
+.site-footer .extra-links .first-column {
+    margin-left: 30px;
+}
+
+.site-footer .extra-links div {
+    display: inline-block;
+    width: calc(50% - 25px);
+    vertical-align: top;
+}
+
+.site-footer .extra-links a {
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+    color: #b6aa9d;
+}
+
+.site-footer .extra-links a:hover {
+    color: #f1e3d2;
+}
+
+
+
+
+
+
+
