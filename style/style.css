@@ -1,3 +1,16 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+ .reservation, .offers, .site-footer {
+   /* border: 1px solid blue; */
+     max-width:1022px ;
+     margin: 0 auto;
+     padding: 0;
+     background-color: #b8f6ed;
+ }
+
+
 body {
     font-size: 16px;
     margin: 0;
@@ -77,3 +90,200 @@ main {
     height: 300px;
     background: #cccccc;
 }
+
+
+.reservation h3{
+    margin-left: 20px;
+}
+
+form {
+    width: 65%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fromfly .tofly {
+    display: inline-block;
+}
+
+section .colums{
+    width: 315px;
+   /* border: 1px solid blue;*/
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color:white ;
+    border-radius: 10px;
+
+}
+
+section .colums h1{
+    color:red;
+}
+
+section .colums img {
+    width: 99px;
+    height: 74px;
+    float: left;
+    padding: 5px;
+    display: inline-block;
+
+}
+
+section .colums article{
+    width: 315px;
+    height: 180px;
+   /* border: 1px solid blue;*/
+}
+
+section .colums article :hover{
+    cursor: pointer;
+}
+
+section .colums h2.place{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding-left:10px ;
+}
+
+article>h2{
+    text-decoration: none;
+    color: red;
+
+}
+
+article > p.night{
+    color: green;
+    font-size: 1.2em;
+}
+article > p.food{
+    padding-left:100px ;
+  }
+
+section .colums a{
+
+    text-decoration: none;
+}
+
+button.btn {
+    margin-bottom: 10px;
+    display: inline-block;
+    color: white;
+    background: #69a940;
+    padding: 14px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+button.btn:hover,
+button.btn .fa-angle-double-right:hover {
+    background: #c79d63;
+    color: black;
+    cursor: pointer;
+}
+
+
+button.btn1 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 500px ;
+    color: white;
+    background: #69a940;
+    padding: 14px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+
+
+button.btn1:hover,
+button.btn .fa-angle-double-right:hover {
+    background: #c79d63;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.site-footer {
+    background: #407ba9;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.site-footer section {
+    vertical-align: top;
+    color: white;
+    width: 230px;
+    height: 140px;
+    margin: 5px;
+    display: inline-block;
+    text-align: left;
+}
+
+.site-footer .consulting p {
+    margin-left: 30px;
+
+
+
+}
+
+.site-footer p.social-links {
+    margin: 30px 0px 0px 50px;
+    display: inline-block;
+}
+
+.site-footer .social-links a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    font-size: 1.5em;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.site-footer .social-links a:hover {
+    background: #aaa;
+    box-shadow: 0px 0px 4px white;
+}
+
+
+
+
+
+
+
